@@ -23,6 +23,9 @@ var days = [
 	['Fri', 'Friday'],
 	['Sat', 'Saturday']
 ];
+
+SSF.days = days;
+
 var months = [
 	['J', 'Jan', 'January'],
 	['F', 'Feb', 'February'],
@@ -37,6 +40,8 @@ var months = [
 	['N', 'Nov', 'November'],
 	['D', 'Dec', 'December']
 ];
+
+SSF.months = months;
 function init_table(t) {
 	t[0]=  'General';
 	t[1]=  '0';

@@ -27,6 +27,9 @@ var days/*:Array<Array<string> >*/ = [
 	['Fri', 'Friday'],
 	['Sat', 'Saturday']
 ];
+
+SSF.days = days;
+
 var months/*:Array<Array<string> >*/ = [
 	['J', 'Jan', 'January'],
 	['F', 'Feb', 'February'],
@@ -41,6 +44,8 @@ var months/*:Array<Array<string> >*/ = [
 	['N', 'Nov', 'November'],
 	['D', 'Dec', 'December']
 ];
+
+SSF.months = months;
 function init_table(t/*:any*/) {
 	t[0]=  'General';
 	t[1]=  '0';
