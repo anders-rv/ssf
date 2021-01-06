@@ -23,6 +23,8 @@ function parse_date_code(v/*:number*/,opts/*:?any*/,b2/*:?boolean*/) {
 	}
 	out.y = dout[0]; out.m = dout[1]; out.d = dout[2];
 	out.S = time % 60; time = Math.floor(time / 60);
+	// RV: FIXME: HACK
+	out.S = 0;
 	out.M = time % 60; time = Math.floor(time / 60);
 	out.H = time;
 	out.q = dow;
